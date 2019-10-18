@@ -1,0 +1,763 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+background-color: white;
+   
+} 
+
+
+ /*--- INDEX CAROUSEL---*/ 
+
+
+    .carousel-item {
+        
+  height: 60vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        
+}
+
+
+
+/*--INDEX CARD---*/
+
+
+   .card-header {
+       
+    text-align:center;
+    font-size: 18px;
+    color: #a82518;
+    
+}
+
+
+   .container-1 { /*conatiner*/
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+    
+   .container-1 img {  /* Bild i container*/
+  padding-top: 10px;
+    width:300px;
+        height:400px;
+   padding-right: 40px;
+}
+
+
+
+/* COLUMN BILDER FÖRSTA SIDA*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 70px;
+    
+}
+
+.row::after {
+    
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+/*---WRAPPER STÖD OSS--*/
+
+#wrapper {
+    
+    height:inherit;
+ width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: white;
+    max-width: 1100px;
+    box-shadow: 1px 3px 3px;
+    
+}
+
+#wrapper > h2 {
+    
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0px 0px 10px 9px;
+    padding: 10px 0px 10px 0px;
+    background: #9988;
+    font-size: 20px;
+    color: #a82516;
+    text-align: center;
+    width:40%;  
+       
+}
+
+
+.placering {
+    
+    width:400px;
+    margin-top: 200px;
+    margin-right: 10px;
+ clear: both;
+    float:right;
+    
+}
+ 
+.placering2 {
+    
+    margin-top: ;
+    margin-right: 20px;
+    float:right;
+    
+}
+
+#wrapper > p {
+    
+    text-align: center;
+    font-size: 14px;
+    width:40%;
+    padding-left: 20px;
+}
+
+
+
+
+/*---FORM---*/
+
+ input[type=text], select, textarea {
+    
+  width: 20%;
+        height: 40px;
+  padding: 8px 2px;
+  border: 1px solid #ccc;
+margin:10px;
+  resize: vertical;
+        border-radius: 6px;
+}
+
+input[type=submit], [type=reset] {
+    
+        width:5%;
+  background-color: #44413c;
+  color: White;
+  border: 1px solid #a82518;
+margin:15px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+    
+  background-color: white;
+}
+
+.container6 {
+    
+     text-align: center;
+  background-color: #f2f2f2;
+ padding:60px;
+    font-size: 14px;
+
+}
+
+
+/*TEXT OCH BILD I VAD VI GÖR*/
+
+
+    .my-4 {
+        
+    font-size: 24px;
+   
+}
+
+    .my-3 {  /* BRÖDTEXT*/
+           
+    font-size: 20px;
+      
+}
+
+   .col-md-8 {  /* BILD */
+    
+    margin-top: 20px;
+}
+
+
+.img-fluid1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+
+/*---CONTAINER VIDEO-VAD VI GÖR---*/
+
+   iframe  {
+    
+  width: 400px;
+  height: 200px;
+       
+}
+
+
+   .container-iframe {
+       
+       display: flex;
+    margin:30px 40px 30px 40px;
+    flex-wrap: wrap;
+    align-items: center;
+       flex-direction:column-reverse;
+      
+}
+
+   .container-iframe p {
+   
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+
+        
+
+/*---BOTTOM VAD VI GÖR---*/
+ 
+
+.checked {   /* STJÄRNOR */
+     
+  color: orange;
+}
+
+
+
+section img {  /*LOGO*/
+    
+    width:15%;
+    margin:30px;  
+   
+}
+
+section {  /* Hela sektionen*/
+    margin: 0px auto;
+    width:90%;
+    padding:5px;  
+    
+}
+
+section > h2{  /* rubrik section*/
+   
+    width:25%;
+    font-size: 20px;
+    font-style:italic;
+    margin: 20px 0px 0px 0px;
+    padding:10px;
+    
+}
+
+aside {  /* text bredvid section*/
+    
+    width: 30%;
+    padding-left: 50px;
+    margin-left: 30px;
+    float: right;
+    box-shadow: inset 4px 0 3px -5px red;
+    
+    
+}
+
+aside h2{ /* rubrik aside bredbid section*/
+      
+    font-size: 24px;
+}
+
+
+/*---symboler facebook & Instagram---*/
+
+.fa {
+    
+
+    padding: 10px;
+    text-decoration: none; 
+        
+}
+
+#myBtn {  
+    
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+    
+  background-color: #555;
+}
+
+
+
+/*-----LÄNKAR-----*/
+
+
+
+a:link {
+   
+    color: dimgray;
+    
+}
+
+    a:visited{ 
+        color: #a82518;
+}
+
+    a:hover{ 
+        color:dimgray;
+    }
+    
+    a:active{ 
+        color:dimgray;
+}
+
+
+/*CARD GROUP VÅRA KATTER*/
+
+
+.card-deck {
+    padding: 30px;
+    margin:40px;
+     
+}
+
+.card {
+    font-size: 14px;
+    padding: 10px;
+    
+}
+
+.reserverad { /* Reserverad text*/
+    
+    font-size: 15px;
+    font-style: italic;
+    color:brown;
+        
+    
+}
+
+.boka { /*knapp för boka*/
+    
+  font-size: 13px;
+    border-radius: 4px;
+    
+}
+
+
+/*----- FOOTER-----*/
+        
+
+
+.full {
+    width: 100%;    
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #a82518;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 0px;
+	text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 38px;
+	padding: 40px 0 10px;
+	font-family: sans-serif;
+  font-weight: lighter
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	color: #7F8C8D;
+  padding: 0 0 8px 0;
+}
+
+.email{
+  border-bottom: 3px solid #fff;
+}
+.footer ul li a {
+	padding: 0 0 12px 0;
+	display: block;
+}
+.footer a {
+	color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+	color: white;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.footer a:hover {
+	text-decoration:none;
+  font-weight: bold;
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+}
+
+.footer a {
+	color: #78828D
+}
+
+.footer-bottom {
+  margin-top: 2em;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+  font-size: 0.75em
+}
+
+
+    /* ----MEDIA SCREEN MOBIL----*/
+
+
+@media screen and (max-width: 480px) {
+    
+    
+    /* VAD VI GÖR */
+    
+    
+    
+    .my-4  {    /* RUBRIK*/
+;
+    font-size: 24px;
+   
+}
+
+    .my-3 {   /* BRÖDTEXT*/
+  
+     text-align: center;
+     font-size: 20px;
+  
+
+}
+    
+    .brödtext-kris {
+         display: flex;
+           flex-wrap: wrap;
+        font-size: 16px;
+        
+        
+    }
+
+
+    
+    .img-fluid {
+         display: flex;
+           flex-wrap: wrap;
+        height: 150px;
+        width:auto;
+
+}
+
+    
+    /*---CONTAINER VIDEO-VAD VI GÖR---*/
+
+   iframe  {
+ width: auto;
+       
+}
+
+
+   .container-iframe {
+    width: auto;
+   
+  
+      
+}
+
+   .container-iframe p {
+   
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+         
+
+/*---BOTTOM VAD VI GÖR---*/
+ 
+
+section img { /*LOGO BILD*/
+   
+   width:170px;
+   
+}
+
+section {
+    
+    display: flex;
+    flex-wrap: wrap;
+ flex-direction:column;
+    width: auto;
+
+}
+
+section > h2{
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 18px;
+    font-style:italic;
+    
+}
+
+aside {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+aside > h2 {
+    
+    font-size: 20px;
+}
+    
+    
+    
+  /*--- INDEX CAROUSEL---*/ 
+
+
+    .carousel-item {
+  height: 10vh;
+  min-height: 200px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        
+}
+    
+    /* COLUMN BILDER FÖRSTA SIDA*/
+
+.column {
+    
+  float: left;
+  width: 22,00 %;
+  padding: 10px;
+    
+}
+    
+    
+    /*INDEX CARD*/
+    
+    
+    .card-header { /* RUBRIK CARD*/
+        align-items: center;
+    font-size: 21px;
+    
+        
+}
+    
+    .card-text { /* BRÖDTEXT CARD*/
+
+    font-size: 16px;
+        
+    }
+
+.container-1 { /*conatiner*/
+ display: flex;
+    flex-wrap: wrap;
+    
+}
+
+    
+.container-1 img {  /* Bild i container*/
+    
+  margin: 0px 0px 0px 30px;
+    
+    width:300px;
+        height:400px;
+}
+    
+    
+    
+    /* STÖD OSS*/
+    
+
+  #wrapper { /* WRAPPER*/
+   
+   display: flex;
+      flex-wrap: wrap;
+      flex-direction:column;
+     
+    }
+
+#wrapper > h2 { /*RUBRIKER I WRAPPER*/
+
+    font-size: 20px;
+    color: #a82516;
+    text-align: center
+      
+}
+
+
+.placering { /* BILD KATT*/
+    display: flex;
+      flex-wrap: wrap;
+    width:100px;
+    height: 100px;
+    margin-top: auto;
+   
+    
+}
+    
+ 
+.placering2 { /* BILD 90konto */
+    width:300px;
+    height: 100px;
+    
+   
+    
+}
+
+#wrapper > p { /*BRÖDTEXT*/
+  
+    font-size: 15px;
+  
+}
+    
+    
+    /*---FORM---*/
+    
+    
+
+ input[type=text], select, textarea {
+    
+  width: auto;
+        height: 45px;
+  padding: 8px 2px;
+  border: 1px solid #ccc;
+margin:10px;
+  resize: vertical;
+        border-radius: 6px;
+     
+}
+
+input[type=submit], [type=reset] {
+    
+        width:auto;
+  background-color: #44413c;
+  color: White;
+  border: 1px solid #a82518;
+
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+    
+  background-color: white;
+}
+
+.container6 {
+  
+     text-align: center;
+  background-color: #f2f2f2;
+ padding:10px;
+    font-size: 17px;
+    
+        }
+    
+    
+    /*---MYBUTTON TO TOP---*/
+    
+    #myBtn {  
+    
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 25px;
+  z-index: 5;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+    
+  background-color: #555;
+    
+}
+
+    
+   
+}
+
+    
+    
